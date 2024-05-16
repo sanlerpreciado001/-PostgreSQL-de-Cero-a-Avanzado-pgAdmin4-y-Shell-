@@ -1,0 +1,20 @@
+-- FUNCIONES DE TEXTO
+-- 1. LEFT
+
+SELECT LEFT ('HOLA ESTE ES UN MENSAJE', 4) AS MENSAJE;
+
+-- LAMINA 67
+
+SELECT nombre, apellido FROM CLINICA.PACIENTE
+WHERE LEFT (nombre, 1) = 'D';
+
+-- LAMINA 68
+
+SELECT nombre, apellido FROM CLINICA.PACIENTE
+WHERE LEFT(nombre, 1) = 'J';
+
+
+
+
+
+						

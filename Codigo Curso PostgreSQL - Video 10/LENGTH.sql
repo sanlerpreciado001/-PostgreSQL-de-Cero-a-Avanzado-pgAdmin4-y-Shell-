@@ -1,0 +1,13 @@
+-- LENGTH:
+
+SELECT LENGTH ('HOLA ESTE ES UN MENSAJE')
+
+-- LAMINA 74
+
+SELECT CONCAT(nombre, '', apellido) AS NOMBRE_PACIENTE, LENGTH(nombre || '' || apellido) AS CANTIDAD_LETRAS 
+FROM CLINICA.PACIENTE;
+
+
+
+
+						
